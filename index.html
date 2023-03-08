@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <h1><div class="title">Etch-A-Sketch</div></h1>
+    <div class="ui">
+        <div class="settings">
+            <div class="slider-div">
+                <span>Grid Size:</span><div id="dimensions">16 x 16</div>
+                <input id=slider type="range" min="2" max="100" value="16">
+                <button id="sliderBtn">Apply Grid</button>
+            </div>
+            <button id="black">Black Brush</button>
+            <button id="rgb">RGB Brush</button>
+            <button id="clear">Clear Grid</button>
+        </div>   
+        <div id="gridContainer">  
+        </div>
+    </div>
+</body>
+<footer>
+    <span>Created by laumt9</span>
+    <span id="divider">|</span>
+    <a href="https://github.com/laumt9"><img id="github" src="./img/github.svg" alt="Github Logo"></a>
+</footer>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,104 @@
+* {
+    text-align: center;
+    background-color: rgb(29, 221, 221);
+}
+
+.title {
+    margin: 200px auto 50px auto;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.ui {
+    display: flex;
+    justify-content: center;
+    max-width: max-content;
+    margin: auto;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 200px;
+    height: 500px;
+    border: 5px solid black;
+    border-radius: 55px;
+}
+
+button {
+    background-color: white;
+    width: 100px;
+    padding: 8px;
+    font-size: 15px;
+}
+
+#black {
+    margin: 20px auto 20px auto;
+}
+
+#rgb {
+    margin: 20px auto 20px auto;
+}
+
+#clear {
+    margin: 20px auto 20px auto;
+}
+
+.slider-div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto 10px auto;
+}
+
+#dimensions {
+    font-size: 18px;
+    font-style: italic;
+}
+
+#slider {
+    width: 100px;
+    background-color: red;
+}
+
+#sliderBtn {
+    margin: 10px auto 10px auto;
+}
+
+#gridContainer {
+    display: grid;
+    border: 5px solid black;
+    height: 600px;
+    width: 600px;
+    min-height: 600px;
+    min-width: 600px;
+    margin-left: 70px;
+    margin-right: auto;
+}
+
+.square {
+    background-color: white;
+    border: 1px dotted black;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    margin: 30px auto 0 auto;
+    gap: 7px;
+}
+
+#divider {
+    font-size: 22px;
+}
+
+#github {
+    width: 20px;
+    height: 20px;
+}
