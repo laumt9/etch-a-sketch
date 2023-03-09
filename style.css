@@ -3,6 +3,11 @@
     background-color: rgb(29, 221, 221);
 }
 
+body {
+    position: relative;
+    min-height: 95vh;
+}
+
 .title {
     margin: 200px auto 50px auto;
     font-style: italic;
